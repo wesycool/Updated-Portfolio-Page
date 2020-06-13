@@ -20,6 +20,10 @@ body {
     height: calc(100vh - 3.8125rem);
 }
 
+.main-opacity {
+    background: rgba(255, 255, 255, 0.7);
+    height: 100%;
+}
 
 /* Card for index.html & contact.html */
 .col-opacity {
@@ -59,7 +63,7 @@ body {
 }
 
 
-/* LinkedIn Logo*/
+/* LinkedIn GitHub Logo*/
 .linkedin{
     width: 100px;
     height: 30px;
