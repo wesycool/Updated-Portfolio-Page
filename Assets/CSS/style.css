@@ -66,9 +66,28 @@ body {
     background: url(../Images/linkedIn.png) no-repeat center/contain !important;
     padding: 3px;
     opacity:0.7;
+    display: inline-block;
 }
 
-.linkedin:hover {
+.github{
+    padding: 3px;
+    opacity:0.7;
+    display: inline-block;
+}
+.github-mark{
+    width: 50px;
+    height: 30px;
+    background: url(../Images/GitHub-Mark.png) no-repeat right/contain !important;
+    display: inline-block;
+}
+.github-logo{
+    width: 100px;
+    height: 30px;
+    background: url(../Images/GitHub_Logo.png) no-repeat left/contain !important;
+    display: inline-block;
+}
+
+.linkedin:hover, .github:hover {
     opacity:1;
 }
 
