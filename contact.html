@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link href="./Assets/CSS/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+
+            <a class="navbar-brand" href="./">
+                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGKEfZVSbVhSA/profile-displayphoto-shrink_100_100/0?e=1594857600&v=beta&t=smTwkK3Z91BcmAfFpjQgB_6fcs1pi-yvMMITI_lGtaw" width="35" height="35" class="d-inline-block align-top" alt="Edmund Wong" style="border-radius: 50px; margin-right: 3px;">
+                Edmund Wong
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="float: right;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup"  style="float: right;">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="./">About</a>
+                    <a class="nav-item nav-link" href="./portfolio.html">Porfolio</a>
+                    <a class="nav-item nav-link active" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
+                </div>
+            </div>
+
+        </nav>
+        
+    </header>
+
+    <main class="bg-img">
+        <div class="container">
+            <div class="row main-row">
+                <div class="col-12 col-md-6 offset-md-6 col-xl-4 offset-xl-8  col-opacity">
+
+                    <form class="card-opacity card-padding">
+                        <h1>Get in Touch</h1>
+
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <div class="form-row">
+                                <div class="col">
+                                <input type="text" class="form-control form-font" id="firstname" placeholder="First name">
+                                </div>
+                                <div class="col">
+                                <input type="text" class="form-control form-font" id="lastname" placeholder="Last name">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control form-font" id="email" placeholder="name@example.com">
+                        </div>
+
+                        <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control form-font" id="message" rows="3"></textarea>
+                        </div>
+                        <input type="submit" id="submitmessage" class="btn btn-primary form-font contact-button">
+                    </form>
+
+                </div>
+            </div>
+        
+        </div>
+
+        
+    </main>
+
+    <footer class="fixed-bottom footer">
+        <div class="container">
+            <div class="col-12 col-md-6 offset-md-6 col-xl-4 offset-xl-8" >
+                (c) 2020 Edmund Wong
+            </div>
+        </div>
+    </footer>
+    
+    
+</body>
+
+</html>
