@@ -23,6 +23,7 @@ body {
 .main-opacity {
     background: rgba(255, 255, 255, 0.7);
     height: 100%;
+    overflow: scroll; 
 }
 
 /* Card for index.html & contact.html */
