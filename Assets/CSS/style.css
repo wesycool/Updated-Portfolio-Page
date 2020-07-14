@@ -28,7 +28,7 @@ body {
 
 .row-scroll{
     overflow: scroll; 
-    height: 100%;
+    height: calc(100vh - 11.4375rem);;
 }
 
 /* Card for index.html & contact.html */
